@@ -222,10 +222,6 @@ Hosted on:
 
 # 📸 Future Improvements
 
-- AI Resume Scoring
-- PDF Resume Parsing
-- Interview Analytics
-- Resume Templates
 - Email Notifications
 - Admin Dashboard
 
