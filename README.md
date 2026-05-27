@@ -1,4 +1,4 @@
-# AI Resume Analyzer
+# 🤖📄 AI Resume Analyzer
 
 An AI-powered full-stack Resume Analyzer platform built using React, Django REST Framework, PostgreSQL, and AI-based resume processing tools.
 
@@ -219,6 +219,28 @@ Hosted on:
 - Neon PostgreSQL
 
 ---
+
+## 📸 Screenshots
+
+## Register Page
+<img width="1365" height="677" alt="register" src="https://github.com/user-attachments/assets/aa81a2bd-c4b4-4b01-8cc9-bdc1ef7c2271" />
+
+## login Page
+<img width="1365" height="680" alt="login" src="https://github.com/user-attachments/assets/883e41b8-5bda-40e9-9b91-5925d5a12f94" />
+
+## Dashboard Page
+<img width="1354" height="680" alt="dashboard" src="https://github.com/user-attachments/assets/0d623c8a-c694-48b3-a1fc-6c30ecbc0cb3" />
+
+## Analyze Page
+<img width="1351" height="676" alt="analyzer" src="https://github.com/user-attachments/assets/3f49e4c0-9f26-480a-b7ea-501a2eb5aa72" />
+
+## Resume-Builder Page
+<img width="1349" height="681" alt="resume-builder" src="https://github.com/user-attachments/assets/f71567bd-a840-4d48-826e-0c6644d9d363" />
+
+## Interview Page
+<img width="1352" height="679" alt="interview" src="https://github.com/user-attachments/assets/bc5d6aac-8d89-4c9c-91b6-154353c039e4" />
+
+
 
 # 📸 Future Improvements
 
