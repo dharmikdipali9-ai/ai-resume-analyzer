@@ -35,7 +35,9 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 DEBUG = os.getenv("DEBUG") == "True"
 
 ALLOWED_HOSTS = ["*"]
-CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOWED_ORIGINS = [
+    "https://ai-resume-analyzer-mu-coral.vercel.app/",
+]
 
 AUTH_USER_MODEL = 'users.User'
 
