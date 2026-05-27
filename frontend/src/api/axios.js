@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const API = axios.create({
-    baseURL: 'http://127.0.0.1:8000/api'
+    baseURL: import.meta.env.VITE_API_URL
 })
 
 // =========================
@@ -53,7 +53,7 @@ API.interceptors.response.use(
 
                 // Get new access token
                 const res = await axios.post(
-                    'http://127.0.0.1:8000/api/users/refresh/',
+                    '/api/users/refresh/',
                     {
                         refresh
                     }
