@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="8" y1="7" x2="56" y2="57" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06b6d4"/>
+      <stop offset=".48" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#fb7185"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="15" y1="10" x2="43" y2="38" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="2" y="2" width="60" height="60" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#020617" flood-opacity=".34"/>
+    </filter>
+  </defs>
+  <rect width="52" height="52" x="6" y="6" fill="url(#bg)" rx="16" filter="url(#shadow)"/>
+  <path fill="url(#shine)" d="M14 15.5C14 13.6 15.6 12 17.5 12h29C32.8 15.2 22.3 25.7 18.8 39.4A27 27 0 0 1 14 23.8v-8.3Z"/>
+  <path fill="#fff" d="M34.9 13.8 20.7 34.1c-.7 1 .1 2.4 1.3 2.4h8.3l-2.7 12.4c-.4 1.7 1.8 2.7 2.9 1.3l14-19.6c.8-1-.1-2.5-1.3-2.5h-8.1l2.8-13.2c.4-1.7-2-2.6-3-.9Z"/>
+</svg>
